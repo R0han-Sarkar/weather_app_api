@@ -1,0 +1,17 @@
+.forecastSection {
+  width: 60vw;
+}
+.hourtrack {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.progress {
+  width: 50%;
+}
+.forecastDetails {
+  background: transparent;
+}
+#weatherDescriptionWeekly {
+  font-size: 0.8rem !important ;
+}

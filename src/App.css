@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-image: url(./assets/weatherPIC.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header {
+  height: 10vh;
+  /* background-color: wheat; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  /* border-bottom: 5px solid white; */
+}
+.recentSearches {
+  position: absolute;
+  text-align: left;
+  margin-left: 30px;
+}
+.recentSearchItems {
+  /* margin-left: 23px; */
+  margin-top: 10px;
+}
+.citytextbox {
+  height: 45px;
+  width: 30vw;
+  /* font-style: italic; */
+  font-size: 1rem;
+  text-align: center;
+  border: 2px solid beige;
+  border-radius: 5px;
+}
+.suggestionWrapper {
+  height: 150px;
+  font-size: 1rem;
+  background-color: white;
+  overflow-y: scroll;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
+.suggestion {
+  /* background-color: white; */
+  width: 28vw;
+  color: black;
+  height: 5vh;
+  border: 0.5px solid lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suggestion:hover {
+  color: blue;
+  cursor: pointer;
+}
+.app-body {
+  margin-top: 5vh;
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

@@ -1,0 +1,38 @@
+.current{
+    /* background-color: beige ; */
+    color: black;
+    width: 35vw;
+    height: 40vh;
+    margin: 5vh;
+}
+.cuurentBody{
+ margin-top: 3vh;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.weatherResultBox {
+    margin: auto;
+    width: 500px;
+    height: 262px;
+  }
+  .weatherIcon {
+    margin-top: 2rem;
+    width: 50px;
+    height: 50px;
+  }
+  .weatherCity {
+    font-size: 26px;
+  }
+  .weatherCondition {
+    font-size: 16px;
+  }
+  .table{
+    font-size: 20px;
+    padding: 5px;
+    border-spacing: 25px 0;
+  }
+  .table tr td{
+    padding: 10px !important;
+        
+}
